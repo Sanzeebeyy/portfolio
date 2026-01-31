@@ -15,7 +15,7 @@ const projectsData = [
     {
         title: 'Spotify Lite',
         description: 'A music player app using Deezer API built with React',
-        tags: ['React', 'Deezer API', 'Tailwind'],
+        tags: ['React', 'Deezer API', 'JavaScript'],
         github: 'https://github.com/Sanzeebeyy/project-reactSongsPlayer',
         // demo: 'https://example.com',
         image: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)'
@@ -24,8 +24,8 @@ const projectsData = [
         title: 'Portfolio Website',
         description: 'A modern, responsive portfolio website featuring smooth animations and glassmorphism design.',
         tags: ['React', 'Framer Motion', 'Vanilla CSS'],
-        github: 'https://github.com',
-        demo: 'https://example.com',
+        github: 'https://github.com/Sanzeebeyy/portfolio',
+        // demo: 'https://example.com',
         image: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)'
     }
 ];

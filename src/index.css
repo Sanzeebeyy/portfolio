@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Colors */
+  /* Default Dark Mode */
   --bg-color: #050505;
   --text-color: #ffffff;
   --text-secondary: #a1a1aa;
@@ -31,6 +31,22 @@
   --transition-medium: 0.4s ease;
 }
 
+[data-theme="light"] {
+  --bg-color: #f9fafb;
+  --text-color: #1f2937;
+  --text-secondary: #4b5563;
+
+  --primary-color: #7c3aed;
+  /* Slightly brighter purple */
+  --secondary-color: #0891b2;
+  /* Darker cyan for contrast */
+  --accent-color: #db2777;
+
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  /* White glass */
+  --glass-border: rgba(0, 0, 0, 0.1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +60,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a {
