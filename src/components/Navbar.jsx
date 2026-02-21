@@ -26,7 +26,7 @@ const Navbar = () => {
     const socialLinks = [
         { icon: <FaGithub />, href: 'https://github.com/Sanzeebeyy', label: 'GitHub' },
         { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/sanjeeb-poudel-337869338/', label: 'LinkedIn' },
-        { icon: <FaEnvelope />, href: 'sanjibpoudel49@gmail.com', label: 'Email' },
+        { icon: <FaEnvelope />, href: 'mailto:sanjibpoudel49@gmail.com', label: 'Email' },
     ];
 
     const toggleMenu = () => setIsOpen(!isOpen);

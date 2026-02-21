@@ -25,12 +25,12 @@ const About = () => {
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
                         <p className="about-description">
-                            I am a passionate <span className="text-highlight">Full Stack Developer</span> with a knack for creating intuitive and visually stunning digital experiences.
-                            My journey involves turning complex ideas into robust, scalable, and user-friendly applications.
+                            {/* I am a passionate <span className="text-highlight">Full Stack Developer</span> with a knack for creating intuitive and visually stunning digital experiences.
+                            My journey involves turning complex ideas into robust, scalable, and user-friendly applications. */}
+                            I'm a <span className="text-highlight">Full Stack Developer</span> who builds things people actually enjoy using. I take messy, complicated problems and turn them into clean, fast, and thoughtful applications - from the database to the interface.
                         </p>
                         <p className="about-description">
-                            With a strong foundation in modern web technologies, I focus on writing clean code and solving real-world problems.
-                            Whether it's building a complex backend system or designing a fluid frontend interface, I love every aspect of the development cycle.
+                            I've always believed that great software should feel effortless to use, even when it's anything but effortless to build. As a Full Stack Developer, I work across the entire stack — architecting reliable backends and crafting interfaces that just make sense.
                         </p>
 
                         <div className="about-stats">
@@ -39,7 +39,7 @@ const About = () => {
                                 <span className="stat-label">Years Experience</span>
                             </div>
                             <div className="stat-item">
-                                <span className="stat-number">5+</span>
+                                <span className="stat-number">10+</span>
                                 <span className="stat-label">Projects</span>
                             </div>
                             <div className="stat-item">

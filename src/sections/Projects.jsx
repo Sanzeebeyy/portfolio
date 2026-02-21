@@ -2,23 +2,24 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import './Projects.css';
+import { image } from 'framer-motion/client';
 
 const projectsData = [
     {
-        title: 'Dating App - DateMe',
+        title: 'DateMe - A Dating App',
         description: 'A full-featured dating app with like/reject functionality, user authentication, and in-app chat system.',
         tags: ['React', 'FastAPI', 'SQLite', 'WebSockets'],
-        github: 'https://github.com/Sanzeebeyy/DateMe-Project',
-        // demo: 'https://example.com',
-        image: 'linear-gradient(135deg, #6d28d9 0%, #ec4899 100%)'
+        github: 'https://github.com/Sanzeebeyy/DateMe',
+        demo: 'https://date-me-frontend.onrender.com',
+        image: '#dc3c3f'
     },
     {
-        title: 'Spotify Lite',
-        description: 'A music player app using Deezer API built with React',
+        title: 'Dwellix - A Room Rental',
+        description: 'A full stack rental platform for landlords and tenants for seamless interaction',
         tags: ['React', 'Deezer API', 'JavaScript'],
-        github: 'https://github.com/Sanzeebeyy/project-reactSongsPlayer',
+        github: 'https://github.com/Sanzeebeyy/Dwellix',
         // demo: 'https://example.com',
-        image: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)'
+        image: '#87CEEB'
     },
     {
         title: 'Portfolio Website',
@@ -26,7 +27,7 @@ const projectsData = [
         tags: ['React', 'Framer Motion', 'Vanilla CSS'],
         github: 'https://github.com/Sanzeebeyy/portfolio',
         // demo: 'https://example.com',
-        image: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)'
+        image: '#f59e0b'
     }
 ];
 
@@ -57,6 +58,7 @@ const Projects = () => {
                         >
                             <div
                                 className="project-image"
+                                // style={{ backgroundImage: `url(${project.image})` }}
                                 style={{ background: project.image }}
                             >
                                 <div className="project-overlay">

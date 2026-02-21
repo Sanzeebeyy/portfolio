@@ -43,8 +43,9 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.8 }}
                 >
-                    Crafting digital experiences with modern technologies.
-                    Specialized in building exceptional applications that are fast, accessible, and visually stunning.
+                    Computer Engineering undergraduate with hands-on experience building and deploying full-stack web
+                    applications. <br />
+                    Passionate about building scalable backend systems and intuitive frontend interfaces.
                 </motion.p>
 
                 <motion.div
