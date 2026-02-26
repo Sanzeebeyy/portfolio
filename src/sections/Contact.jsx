@@ -26,7 +26,7 @@ const Contact = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <h3>Let's specificify your next project together</h3>
-                        <p>I'm always open to discussing development work or partnership opportunities.</p>
+                        <p>I'm always open to discussing development work or partnership opportunities</p>
 
                         <div className="info-item">
                             <div className="icon-box"><FaEnvelope /></div>
