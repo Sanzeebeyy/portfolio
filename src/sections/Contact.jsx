@@ -59,7 +59,7 @@ const Contact = () => {
                         <div className="form-group">
                             <textarea placeholder="Your Message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" className="btn btn-primary submit-btn">Send Message</button>
+                        <button type="submit" className="btn btn-primary submit-btn">Send Message To Me</button>
                     </motion.form>
                 </div>
             </div>
