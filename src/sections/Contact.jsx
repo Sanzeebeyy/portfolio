@@ -38,7 +38,7 @@ const Contact = () => {
                         </div>
                         <div className="info-item">
                             <div className="icon-box"><FaMapMarkerAlt /></div>
-                            <span>Lalitpur, Nepal</span>
+                            <span>Lalitpur, Nepal </span>
                         </div>
                     </motion.div>
 
