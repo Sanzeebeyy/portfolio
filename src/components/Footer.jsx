@@ -14,6 +14,7 @@ const Footer = () => {
                     <a href="#"><FaGithub /></a>
                     <a href="#"><FaLinkedin /></a>
                     <a href="#"><FaTwitter /></a>
+                    
                 </div>
             </div>
         </footer>
